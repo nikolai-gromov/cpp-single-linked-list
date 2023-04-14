@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/single_linked_list.dir/main.cpp.o -c /home/nikolai/practicum/cpp-single-linked-list/single-linked-list/main.cpp",
+  "file": "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/main.cpp"
+}
+]
