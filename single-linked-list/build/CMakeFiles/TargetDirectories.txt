@@ -1,5 +1,5 @@
-/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/edit_cache.dir
-/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/package_source.dir
-/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/rebuild_cache.dir
-/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/package.dir
-/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/single_linked_list.dir
+/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/single_linked_list.dir
+/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/package.dir
+/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/package_source.dir
+/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/edit_cache.dir
+/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build/CMakeFiles/rebuild_cache.dir

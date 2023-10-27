@@ -2,6 +2,18 @@
 	"entries" : 
 	[
 		{
+			"name" : "ANTLR_BUILD_CPP_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "OFF"
+		},
+		{
 			"name" : "BUILD_TESTING",
 			"properties" : 
 			[
@@ -71,7 +83,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -83,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build"
+			"value" : "/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -107,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "16"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -119,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -183,10 +195,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -311,10 +323,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -623,7 +635,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list"
+			"value" : "/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -834,6 +846,18 @@
 			"value" : "1"
 		},
 		{
+			"name" : "CMAKE_PREFIX_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/home/nikolai/protobuf-3.21.12/build-release/Protobuf"
+		},
+		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
 			"properties" : 
 			[
@@ -971,7 +995,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.16"
+			"value" : "/usr/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1771,7 +1795,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/build"
+			"value" : "/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/build"
+		},
+		{
+			"name" : "single_linked_list_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
 		},
 		{
 			"name" : "single_linked_list_SOURCE_DIR",
@@ -1783,7 +1819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list"
+			"value" : "/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list"
 		}
 	],
 	"kind" : "cache",

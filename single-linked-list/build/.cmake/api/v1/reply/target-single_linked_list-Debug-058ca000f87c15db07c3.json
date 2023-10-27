@@ -42,20 +42,25 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG  "
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/nikolai/practicum/cpp-single-linked-list/single-linked-list/."
+					"path" : "/home/nikolai/projects/practicum/cpp-single-linked-list/single-linked-list/."
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -68,7 +73,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{

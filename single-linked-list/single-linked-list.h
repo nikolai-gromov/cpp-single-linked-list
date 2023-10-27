@@ -134,7 +134,10 @@ public:
 
     // Сообщает, пустой ли список за время O(1)
     [[nodiscard]] bool IsEmpty() const noexcept {
-        return (size_ == 0) ? true : false;
+        if (size_ != 0u) {
+            return false;
+        }
+        return true;
     }
 
     // Вставляет элемент value в начало списка за время O(1)
@@ -234,13 +237,13 @@ public:
     // Возвращает итератор, указывающий на позицию перед первым элементом односвязного списка.
     // Разыменовывать этот итератор нельзя - попытка разыменования приведёт к неопределённому поведению
     [[nodiscard]] Iterator before_begin() noexcept {
-        return Iterator{ &head_ };
+        return Iterator {&head_};
     }
 
     // Возвращает константный итератор, указывающий на позицию перед первым элементом односвязного списка.
     // Разыменовывать этот итератор нельзя - попытка разыменования приведёт к неопределённому поведению
     [[nodiscard]] ConstIterator cbefore_begin() const noexcept {
-        return ConstIterator{ const_cast<Node*>(&head_) };
+        return ConstIterator {const_cast<Node*>(&head_)};
     }
 
     // Возвращает константный итератор, указывающий на позицию перед первым элементом односвязного списка.
@@ -280,7 +283,7 @@ public:
         pos.node_->next_node = temp;
         --size_;
 
-        return Iterator{ pos.node_->next_node };
+        return Iterator {pos.node_->next_node};
     }
 
 private:
