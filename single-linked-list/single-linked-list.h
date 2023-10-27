@@ -134,10 +134,7 @@ public:
 
     // Сообщает, пустой ли список за время O(1)
     [[nodiscard]] bool IsEmpty() const noexcept {
-        if (size_ != 0u) {
-            return false;
-        }
-        return true;
+        return head_.next_node == nullptr;
     }
 
     // Вставляет элемент value в начало списка за время O(1)
@@ -172,13 +169,13 @@ public:
     // Возвращает итератор, ссылающийся на первый элемент
     // Если список пустой, возвращённый итератор будет равен end()
     [[nodiscard]] Iterator begin() noexcept {
-        return Iterator{ head_.next_node };
+        return Iterator {head_.next_node};
     }
 
     // Возвращает итератор, указывающий на позицию, следующую за последним элементом односвязного списка
     // Разыменовывать этот итератор нельзя — попытка разыменования приведёт к неопределённому поведению
     [[nodiscard]] Iterator end() noexcept {
-        return Iterator{ nullptr };
+        return Iterator {nullptr};
     }
 
     // Возвращает константный итератор, ссылающийся на первый элемент
@@ -192,19 +189,19 @@ public:
     // Разыменовывать этот итератор нельзя — попытка разыменования приведёт к неопределённому поведению
     // Результат вызова эквивалентен вызову метода cend()
     [[nodiscard]] ConstIterator end() const noexcept {
-        return ConstIterator{ nullptr };
+        return ConstIterator {nullptr};
     }
 
     // Возвращает константный итератор, ссылающийся на первый элемент
     // Если список пустой, возвращённый итератор будет равен cend()
     [[nodiscard]] ConstIterator cbegin() const noexcept {
-        return ConstIterator{ head_.next_node };
+        return ConstIterator {head_.next_node};
     }
 
     // Возвращает константный итератор, указывающий на позицию, следующую за последним элементом односвязного списка
     // Разыменовывать этот итератор нельзя — попытка разыменования приведёт к неопределённому поведению
     [[nodiscard]] ConstIterator cend() const noexcept {
-        return ConstIterator{ nullptr };
+        return ConstIterator {nullptr};
     }
 
 
